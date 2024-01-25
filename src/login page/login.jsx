@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/img-redundant-alt */
 import React from "react";
 import "./style.css";
 
@@ -6,7 +7,8 @@ export const LoginPage = () => {
     <div className="login-page">
       <div className="overlap-wrapper">
         <div className="overlap">
-          <img className="image" alt="Image" src="https://c.animaapp.com/O6jmtek0/img/image-4.png" />
+          {/* // eslint-disable-next-line jsx-a11y/img-redundant-alt */}
+          <img className="image" alt="Image"  src="https://c.animaapp.com/O6jmtek0/img/image-4.png" />
           <div className="group">
             <div className="div">
               <div className="group-2">

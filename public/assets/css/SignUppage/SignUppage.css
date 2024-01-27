@@ -6,14 +6,14 @@
     width: 100%;
 }
 
-.div {
+.signup-page .div {
     background-color: #deead2;
     height: 832px;
     position: relative;
     width: 128px;
 }
 
-.text-wrapper {
+.signup-page.text-wrapper {
     color: #136063;
     font-family: "Jaldi-Bold", Helvetica;
     font-size: 48px;
@@ -22,7 +22,7 @@
     top: 80px;
 }
 
-.la-facebook {
+.signup-page .la-facebook {
     height: 62px;
     left: 826px;
     position: absolute;
@@ -30,7 +30,7 @@
     width: 62px;
 }
 
-.icomoon-free-google {
+.signup-page .icomoon-free-google {
     height: 45px;
     left: 895px;
     position: absolute;
@@ -38,7 +38,7 @@
     width: 45px;
 }
 
-.entypo-social {
+.signup-page.entypo-social {
     height: 46px;
     left: 956px;
     position: absolute;
@@ -46,7 +46,7 @@
     width: 46px;
 }
 
-.p {
+.signup-page.p {
     color: #000000;
     font-family: "Jaldi-Regular", Helvetica;
     font-size: 20px;
@@ -58,7 +58,7 @@
     top: 240px;
 }
 
-.overlap {
+.signup-page .overlap {
     background-color: #bad9b1;
     border-radius: 5px;
     height: 72px;
@@ -68,7 +68,7 @@
     width: 426px;
 }
 
-.text-wrapper-2 {
+.signup-page.text-wrapper-2 {
     color: #de0000de;
     font-family: "Inter-Medium", Helvetica;
     font-size: 15px;
@@ -81,7 +81,7 @@
     width: 131px;
 }
 
-.overlap-group {
+.signup-page .overlap-group {
     background-color: #bad9b1;
     border-radius: 5px;
     height: 72px;
@@ -91,7 +91,7 @@
     width: 426px;
 }
 
-.div-wrapper {
+.signup-page .div-wrapper {
     background-color: #bed9b1;
     border-radius: 5px;
     height: 72px;
@@ -101,7 +101,7 @@
     width: 426px;
 }
 
-.frame {
+.signup-page .frame {
     background-color: #136063;
     border-radius: 10px;
     height: 72px;
@@ -111,7 +111,7 @@
     width: 274px;
 }
 
-.text-wrapper-3 {
+.signup-page.text-wrapper-3 {
     color: #ffffff; /* Corrected typo in color value */
     font-family: "Jaldi-Bold", Helvetica;
     font-size: 36px;
@@ -123,7 +123,7 @@
     top: -1px;
 }
 
-.text-wrapper-4 {
+.signup-page .text-wrapper-4 {
     color: #000000;
     font-family: "Jaldi-Regular", Helvetica;
     font-size: 20px; /* Corrected incorrect font size value */
@@ -136,7 +136,7 @@
     top: 687px;
 }
 
-.overlap-2 {
+.signup-page.overlap-2 {
     background-image: url(./image123-1.png);
     background-position: 50% 58%;
     background-size: cover;
@@ -147,7 +147,7 @@
     width: 606px;
 }
 
-.carbon-logo-slack {
+.signup-page .carbon-logo-slack {
     height: 99px;
     left: 25px; /* Corrected missing value for left property */
     position: absolute;
@@ -155,14 +155,14 @@
     width: 99px;
 }
 
-.overlap-3 {
+.signup-page .overlap-3 {
     height: 112px;
     left: 155px; /* Corrected missing value for left property */
     position: absolute;
     top: 598px;
     width: 395px;
 }
-.overlap-group-wrapper {
+.signup-page .overlap-group-wrapper {
     height: 72px;
     left: 25px;
     position: absolute;
@@ -170,7 +170,7 @@
     width: 99px;
 }
 
-.overlap-group-2 {
+.signup-page .overlap-group-2 {
     background-color: #136063;
     border-radius: 10px; /* Corrected incorrect value for border-radius */
     height: 72px;
@@ -178,7 +178,7 @@
     top: 29px;
 }
 
-.text-wrapper-5 {
+.signup-page .text-wrapper-5 {
     color: #ffffff;
     font-family: "Jaldi-Bold", Helvetica;
     font-size: 36px;
@@ -190,7 +190,7 @@
     top: 4px;
 }
 
-.text-wrapper-6 {
+.signup-page .text-wrapper-6 {
     color: #136063;
     font-family: "Jaldi-Bold", Helvetica;
     font-size: 40px; /* Corrected incorrect font size value */
@@ -202,7 +202,7 @@
     top: 0;
 }
 
-.text-wrapper-7 {
+.signup-page .text-wrapper-7 {
     color: #136063;
     font-family: "Jaldi-Bold", Helvetica;
     font-size: 48px;

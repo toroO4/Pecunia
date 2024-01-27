@@ -10,24 +10,24 @@ export const SignupPage = () => {
         <img className="linkedin-logo" alt="Entypo social" src="./assets/images/linkedIn.svg" />
         <p className="p">or use your email account</p>
         <div className="overlap">
-          <div className="text-wrapper-2">Enter your name</div>
+          <input type="text" className="input-field" placeholder="Enter your name" />
         </div>
         <div className="overlap-group">
-          <div className="text-wrapper-2">Enter your name</div>
+          <input type="text" className="input-field" placeholder="Enter your email" />
         </div>
         <div className="div-wrapper">
-          <div className="text-wrapper-2">Enter your name</div>
+          <input type="password" className="input-field" placeholder="Enter your password" />
         </div>
         <div className="frame">
-          <div className="text-wrapper-3">Sign Up</div>
+          <button className="text-wrapper-3">Sign Up</button>
         </div>
         <div className="text-wrapper-4">Forgot your password?</div>
         <div className="overlap-2">
-          <img className="slack-logo" alt="LOGO" src=""/>
+          <img className="slack-logo" alt="LOGO" src="" />
           <div className="overlap-3">
             <div className="overlap-group-wrapper">
               <div className="overlap-group-2">
-                <div className="text-wrapper-5">Sign In</div>
+                <button className="text-wrapper-5">Sign In</button>
               </div>
             </div>
             <div className="text-wrapper-6">Already have an account?</div>

@@ -1,6 +1,6 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react';
-import { useHomepageClick } from '../components/HomepageClick';
+import { useHomepageClick } from '../components/Homepage';
 
 function Homepage() {
 

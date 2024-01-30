@@ -3,8 +3,8 @@ import React, { useState } from 'react';
 const Tabs = () => {
   const [activeTab, setActiveTab] = useState('Tab1');
 
-  const handleTabClick = (tabName) => {
-    setActiveTab(tabName);
+  const handleTabClick = (tab) => {
+    setActiveTab(tab);
   };
 
   return (
@@ -31,4 +31,7 @@ const Tabs = () => {
   );
 };
 
-export default Tabs;
+export const Tabs = {
+  activeTab,
+  handleTabClick,
+};

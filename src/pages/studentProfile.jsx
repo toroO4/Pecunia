@@ -1,6 +1,6 @@
 import React from 'react';
-import * as AboutFunctions from '../components/About';
-import * as TabsFunctions from '../components/Tabs';
+import { showMore, onSeeMoreClick } from '../components/About';  
+import { activeTab, handleTabClick } from '../components/Tabs';
 
 const StudentPage = () => {
   return (
@@ -43,20 +43,20 @@ const StudentPage = () => {
 
     <div className="Tabs">
       <div
-        className={`Tab ${TabsFunctions === 'Tab1' ? 'active' : ''}`}
-        onClick={() => TabsFunctions('Tab1')}
+        className={`Tab ${activeTab === 'Tab1' ? 'active' : ''}`}
+        onClick={() => handleTabClick('Tab1')}
       >
         Tab 1
       </div>
       <div
-        className={`Tab ${TabsFunctions === 'Tab2' ? 'active' : ''}`}
-        onClick={() => TabsFunctions('Tab2')}
+        className={`Tab ${activeTab === 'Tab2' ? 'active' : ''}`}
+        onClick={() => handleTabClick('Tab2')}
       >
         Tab 2
       </div>
       <div
-        className={`Tab ${TabsFunctions === 'Tab3' ? 'active' : ''}`}
-        onClick={() => TabsFunctions('Tab3')}
+        className={`Tab ${activeTab === 'Tab3' ? 'active' : ''}`}
+        onClick={() => handleTabClick('Tab3')}
       >
         Tab 3
       </div>
@@ -70,14 +70,14 @@ const StudentPage = () => {
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
         </p>
-        {AboutFunctions && (
+        {showMore && (
           <p>
             Additional information about your company or project goes here. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
           </p>
         )}
       </div>
-      <div className="see-more" onClick={AboutFunctions}>
-        {AboutFunctions ? 'See Less' : 'See More'}
+      <div className="see-more" onClick={onSeeMoreClick}>
+        {showMore ? 'See Less' : 'See More'}
       </div>
     </div>
 

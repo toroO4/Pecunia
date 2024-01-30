@@ -376,9 +376,9 @@ function Homepage() {
 
       <section className="section_8 wrapper">
       <div className="section_8_left">
+        <a type="button">Top companies</a>
+        <a type="button">Trending startups</a>
         <a type="button">Top skills</a>
-        <a type="button">Trending skills</a>
-        <a type="button">Top skills in Kuwait</a>
       </div>
       <div className="section_8_middle">
         <a type="button">Video Editors</a>

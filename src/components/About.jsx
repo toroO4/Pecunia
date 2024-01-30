@@ -9,6 +9,7 @@ const About = () => {
     setShowMore(!showMore);
   };
 
+  // Only export the functions directly
   return { showMore, onSeeMoreClick };
 }
 

@@ -1,6 +1,6 @@
 import { useState } from 'react';
 
-const AboutLogic = () => {
+const About = () => {
   // State to manage the showMore flag
   const [showMore, setShowMore] = useState(false);
 
@@ -12,4 +12,4 @@ const AboutLogic = () => {
   return { showMore, onSeeMoreClick };
 }
 
-export default AboutLogic;
+export default About;

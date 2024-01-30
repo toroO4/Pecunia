@@ -1,6 +1,6 @@
 import React from 'react';
-import { showMore, onSeeMoreClick } from "../components/About";
-import {activeTab, handleTabClick } from "../components/Tabs";
+import { showMore, onSeeMoreClick } from './components/About';  
+import { activeTab, handleTabClick } from './components/Tabs';
 
 const StudentPage = () => {
   return (

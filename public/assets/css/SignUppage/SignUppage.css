@@ -1,9 +1,10 @@
-.signup-page{
+.signup-page {
     background-color: #deead2;
     display: flex;
     flex-direction: row;
     justify-content: center;
     width: 100%;
+<<<<<<< HEAD
 }
 
 .signup-page .div {
@@ -14,39 +15,79 @@
 }
 
 .signup-page.text-wrapper {
+=======
+  }
+  
+  .signup-page .div {
+    background-color: #deead2;
+    height: 832px;
+    position: relative;
+    width: 1280px;
+  }
+  
+  .signup-page .text-wrapper {
+>>>>>>> origin/Toro
     color: #136063;
     font-family: "Jaldi-Bold", Helvetica;
     font-size: 48px;
     font-weight: 700;
+    left: 775px;
+    letter-spacing: 0;
+    line-height: normal;
     position: absolute;
     top: 80px;
+<<<<<<< HEAD
 }
 
 .signup-page .la-facebook {
+=======
+    margin-left: -38px;
+  }
+  
+  .signup-page .facebook-logo {
+>>>>>>> origin/Toro
     height: 62px;
     left: 826px;
     position: absolute;
     top: 162px;
     width: 62px;
+<<<<<<< HEAD
 }
 
 .signup-page .icomoon-free-google {
+=======
+  }
+  
+  .signup-page .google-logo {
+>>>>>>> origin/Toro
     height: 45px;
     left: 895px;
     position: absolute;
     top: 171px;
     width: 45px;
+<<<<<<< HEAD
 }
 
 .signup-page.entypo-social {
+=======
+  }
+  
+  .signup-page .linkedin-logo {
+>>>>>>> origin/Toro
     height: 46px;
     left: 956px;
     position: absolute;
     top: 171px;
     width: 46px;
+<<<<<<< HEAD
 }
 
 .signup-page.p {
+=======
+  }
+  
+  .signup-page .p {
+>>>>>>> origin/Toro
     color: #000000;
     font-family: "Jaldi-Regular", Helvetica;
     font-size: 20px;
@@ -56,20 +97,46 @@
     line-height: normal;
     position: absolute;
     top: 240px;
+<<<<<<< HEAD
 }
 
 .signup-page .overlap {
     background-color: #bad9b1;
+=======
+    margin-left: -25px;
+  }
+  
+  .signup-page .overlap {
+    background-color: #b0d9b1;
+>>>>>>> origin/Toro
     border-radius: 5px;
     height: 72px;
     left: 699px;
     position: absolute;
     top: 306px;
     width: 426px;
+<<<<<<< HEAD
 }
 
 .signup-page.text-wrapper-2 {
     color: #de0000de;
+=======
+    height: 36px;
+  }
+  
+  .signup-page .input-field {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    box-sizing: border-box;
+    background-color: #b0d9b1;
+    border: none;
+    height: 72px;
+  }
+  
+  .signup-page .text-wrapper-2 {
+    color: #00000040;
+>>>>>>> origin/Toro
     font-family: "Inter-Medium", Helvetica;
     font-size: 15px;
     font-weight: 500;
@@ -79,29 +146,51 @@
     position: absolute;
     top: 26px;
     width: 131px;
+<<<<<<< HEAD
 }
 
 .signup-page .overlap-group {
     background-color: #bad9b1;
+=======
+  }
+  
+  .signup-page .overlap-group {
+    background-color: #b0d9b1;
+>>>>>>> origin/Toro
     border-radius: 5px;
     height: 72px;
     left: 699px;
     position: absolute;
-    top: 306px;
+    top: 500px;
     width: 426px;
+<<<<<<< HEAD
 }
 
 .signup-page .div-wrapper {
     background-color: #bed9b1;
+=======
+    height: 32px;
+  }
+  
+  .signup-page .div-wrapper {
+    background-color: #b0d9b1;
+>>>>>>> origin/Toro
     border-radius: 5px;
     height: 72px;
     left: 699px;
     position: absolute;
     top: 403px;
     width: 426px;
+<<<<<<< HEAD
 }
 
 .signup-page .frame {
+=======
+    height: 32px;
+  }
+  
+  .signup-page .frame {
+>>>>>>> origin/Toro
     background-color: #136063;
     border-radius: 10px;
     height: 72px;
@@ -109,100 +198,190 @@
     position: absolute;
     top: 669px;
     width: 274px;
+<<<<<<< HEAD
 }
 
 .signup-page.text-wrapper-3 {
     color: #ffffff; /* Corrected typo in color value */
+=======
+  }
+  
+  .signup-page .text-wrapper-3 {
+    color: #ffffff;
+    background-color: #136063;
+>>>>>>> origin/Toro
     font-family: "Jaldi-Bold", Helvetica;
     font-size: 36px;
     font-weight: 700;
-    left: 91px;
+    left: 60px;
     letter-spacing: 0;
     line-height: normal;
     position: absolute;
+<<<<<<< HEAD
     top: -1px;
 }
 
 .signup-page .text-wrapper-4 {
+=======
+    top: 15px;
+    border: none;
+    margin-left: 15px;
+  }
+  
+  .signup-page .button-wrapper {
+    color: #ffffff;
+    font-family: "Jaldi-Bold", Helvetica;
+    font-size: 36px;
+    font-weight: 700;
+    letter-spacing: 0;
+    line-height: normal;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+  }
+  
+  .signup-page .text-wrapper-4 {
+>>>>>>> origin/Toro
     color: #000000;
     font-family: "Jaldi-Regular", Helvetica;
-    font-size: 20px; /* Corrected incorrect font size value */
+    font-size: 20px;
     font-weight: 400;
     left: 825px;
     letter-spacing: 0;
     line-height: normal;
     position: absolute;
     text-decoration: underline;
+<<<<<<< HEAD
     top: 687px;
 }
 
 .signup-page.overlap-2 {
     background-image: url(./image123-1.png);
     background-position: 50% 58%;
+=======
+    top: 607px;
+    margin-left: -15px;
+  }
+  
+  .signup-page .overlap-2 {
+    background-image: url('/assets/images/signUp.png');
+    background-position: 50% 50%;
+>>>>>>> origin/Toro
     background-size: cover;
     height: 832px;
-    left: 0; /* Corrected missing value for left property */
+    left: 0;
     position: absolute;
     top: 0;
     width: 606px;
+<<<<<<< HEAD
 }
 
 .signup-page .carbon-logo-slack {
+=======
+  }
+  
+  .signup-page .slack-logo {
+>>>>>>> origin/Toro
     height: 99px;
-    left: 25px; /* Corrected missing value for left property */
+    left: 251px;
     position: absolute;
     top: 117px;
     width: 99px;
+<<<<<<< HEAD
 }
 
 .signup-page .overlap-3 {
+=======
+  }
+  
+  .signup-page .overlap-3 {
+>>>>>>> origin/Toro
     height: 112px;
-    left: 155px; /* Corrected missing value for left property */
+    left: 105px;
     position: absolute;
     top: 598px;
     width: 395px;
+<<<<<<< HEAD
 }
 .signup-page .overlap-group-wrapper {
+=======
+  }
+  
+  .signup-page .overlap-group-wrapper {
+>>>>>>> origin/Toro
     height: 72px;
-    left: 25px;
+    left: 61px;
     position: absolute;
+<<<<<<< HEAD
     top: 117px;
     width: 99px;
 }
 
 .signup-page .overlap-group-2 {
+=======
+    top: 40px;
+    width: 274px;
+  }
+  
+  .signup-page .overlap-group-2 {
+>>>>>>> origin/Toro
     background-color: #136063;
-    border-radius: 10px; /* Corrected incorrect value for border-radius */
+    border-radius: 10px;
     height: 72px;
     position: relative;
     top: 29px;
+<<<<<<< HEAD
 }
 
 .signup-page .text-wrapper-5 {
+=======
+  }
+  
+  .signup-page .text-wrapper-5 {
+>>>>>>> origin/Toro
     color: #ffffff;
+    background-color: #136063;
     font-family: "Jaldi-Bold", Helvetica;
     font-size: 36px;
     font-weight: 700;
-    left: 91px;
+    left: 60px;
     letter-spacing: 0;
     line-height: normal;
     position: absolute;
+<<<<<<< HEAD
     top: 4px;
 }
 
 .signup-page .text-wrapper-6 {
+=======
+    top: 15px;
+    border: none;
+    margin-left: 15px;
+    
+  }
+  
+  .signup-page .text-wrapper-6 {
+>>>>>>> origin/Toro
     color: #136063;
     font-family: "Jaldi-Bold", Helvetica;
-    font-size: 40px; /* Corrected incorrect font size value */
+    font-size: 20px;
     font-weight: 700;
-    left: 0;
+    left: 75px;
     letter-spacing: 0;
     line-height: normal;
     position: absolute;
+<<<<<<< HEAD
     top: 0;
 }
 
 .signup-page .text-wrapper-7 {
+=======
+    top: 25px;
+  }
+  
+  .signup-page .text-wrapper-7 {
+>>>>>>> origin/Toro
     color: #136063;
     font-family: "Jaldi-Bold", Helvetica;
     font-size: 48px;
@@ -212,4 +391,6 @@
     line-height: normal;
     position: absolute;
     top: 293px;
-}
+    margin-left: -40px;
+  }
+  

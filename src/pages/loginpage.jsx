@@ -17,7 +17,7 @@ export const LoginPage = () => {
                 <div className="text-wrapper-2">Login now</div>
               </div>
               <div className="frame-6">
-                <div className="text-wrapper-3">Welcome back :)</div>
+                <div className="text-wrapper-3">Welcome back!</div>
               </div>
             </div>
             <div className="frame-7">

@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-const Tabs = () => {
+export const Tabs = () => {
   const [activeTab, setActiveTab] = useState('Tab1');
 
   const handleTabClick = (tab) => {
@@ -31,7 +31,4 @@ const Tabs = () => {
   );
 };
 
-export const Tabs = {
-  activeTab,
-  handleTabClick,
-};
+export {activeTab, handleTabClick};

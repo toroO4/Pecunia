@@ -2,7 +2,7 @@
 import React from 'react';
 import { useHomepageClick } from '../components/HomepageClick';
 
-function Homepage() {
+function Home() {
 
   const totalSlides = 2;
   const {onClickLeft, onClickRight } = useHomepageClick(totalSlides);
@@ -544,4 +544,4 @@ function Homepage() {
   );
 }
 
-export default Homepage;
+export default Home;

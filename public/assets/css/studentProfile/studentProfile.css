@@ -1,228 +1,53 @@
-/* Corrected and Modified CSS */
-
-.student-profile-app {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: 'Arial', sans-serif;
-  background-color: #f3f2ef;
+.Container {
+  padding-top: 52px;
+  max-width: 100%;
 }
 
-.student-profile-wrapper {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  max-width: 1200px;
-  padding: 10px 20px;
-  background-color: #ffffff;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
-
-.student-profile-nav {
-  width: 100%;
-  background-color: #ffffff;
-  border-bottom: 1px solid #dcdcdc;
-}
-
-.student-profile-left {
-  display: flex;
-  align-items: center;
-}
-
-.student-profile-logo {
-  font-size: 24px;
-  margin-right: 20px;
-}
-
-.student-profile-input-container {
-  display: flex;
-  align-items: center;
-  background-color: #f5f5f5;
-  border-radius: 20px;
-  padding: 5px 10px;
-}
-
-.student-profile-input-container input[type="search"] {
-  border: none;
-  outline: none;
-  background: none;
-  width: 200px;
-  margin-left: 5px;
-}
-
-.student-profile-right {
-  display: flex;
-  align-items: center;
-}
-
-.student-profile-right a {
-  margin-left: 20px;
-  text-decoration: none;
-  color: #000000;
-}
-
-.student-profile-right a:hover {
+.Section {
+  min-height: 50px;
+  padding: 16px 0;
+  box-sizing: content-box;
+  text-align: center;
   text-decoration: underline;
-}
-
-.student-profile-container {
   display: flex;
   justify-content: center;
-  margin-top: 20px;
 }
 
-.student-profile-aside {
-  margin-right: 20px;
+.Section h5 {
+  color: #0a66c2;
+  font-size: 14px;
 }
 
-.student-profile-sidebar {
-  background-color: #ffffff;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  padding: 20px;
-  border-radius: 10px;
+.Section h5 a {
+  font-weight: 700;
 }
 
-.student-profile-sidebar img {
-  width: 100px;
-  height: 100px;
-  border-radius: 50%;
+.Section p {
+  font-size: 14px;
+  color: #434649;
+  font-weight: 600;
 }
 
-.student-profile-profile a {
-  text-decoration: none;
-  color: #000000;
-}
-
-.student-profile-profile small {
-  color: #808080;
-}
-
-.student-profile-hr-style {
-  border: 0;
-  border-top: 1px solid #dcdcdc;
-  margin: 10px 0;
-}
-
-.student-profile-recent-jobs {
-  margin-top: 20px;
-}
-
-.student-profile-recent-jobs h5 {
-  margin-bottom: 10px;
-}
-
-.student-profile-recent,
-.student-profile-groups,
-.student-profile-events {
-  margin-bottom: 20px;
-}
-
-.student-profile-one,
-.student-profile-two {
-  display: flex;
-  align-items: center;
-  margin-bottom: 10px;
-}
-
-.student-profile-two h6 {
-  color: #000000; /* Corrected class */
-}
-
-.student-profile-show {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  color: #0073b1;
-}
-
-.student-profile-right-side {
-  background-color: #ffffff;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  padding: 20px;
-  border-radius: 10px;
-}
-
-.student-profile-news {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.student-profile-news i {
-  font-size: 12px;
-  color: #0073b1;
-}
-
-.student-profile-latest-news {
-  display: flex;
-  align-items: center;
-}
-
-.student-profile-latest-news .one {
-  flex-grow: 1;
-}
-
-.student-profile-latest-news .two {
-  color: #808080;
-}
-
-.student-profile-show-more {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: #0073b1;
-  cursor: pointer;
-}
-
-.student-profile-close {
-  display: none;
-}
-
-/* Media queries */
 @media (max-width: 768px) {
-  .student-profile-wrapper {
+  .Section {
     flex-direction: column;
-    align-items: flex-start;
-    padding: 10px;
+    padding: 0 5px;
   }
-  
-  .student-profile-input-container {
-    width: 100%;
-  }
-  
-  .student-profile-input-container input[type="search"] {
-    width: calc(100% - 30px);
-  }
-  
-  .student-profile-right {
+}
+
+.Layout {
+  display: grid;
+  grid-template-areas: "leftside main rightside";
+  grid-template-columns: minmax(0, 5fr) minmax(0, 12fr) minmax(300px, 7fr);
+  column-gap: 25px;
+  row-gap: 25px;
+  margin: 25px 0;
+}
+
+@media (max-width: 768px) {
+  .Layout {
+    display: flex;
     flex-direction: column;
-    align-items: flex-start;
-    margin-top: 10px;
-  }
-  
-  .student-profile-right a {
-    margin-left: 0;
-    margin-top: 10px;
-  }
-  
-  .student-profile-container {
-    flex-direction: column;
-    align-items: center;
-  }
-  
-  .student-profile-aside {
-    margin-right: 0;
-    margin-bottom: 20px;
-  }
-  
-  .student-profile-right-side {
-    width: 100%;
-  }
-  
-  .student-profile-close {
-    display: block;
-    font-size: 24px;
-    margin-bottom: 10px;
-    cursor: pointer;
+    padding: 0 5px;
   }
 }

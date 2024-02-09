@@ -1,0 +1,104 @@
+.container {
+  grid-area: rightside;
+  display: flex;
+  flex-direction: column;
+}
+
+.follow-card {
+  text-align: center;
+  overflow: hidden;
+  margin-bottom: 8px;
+  background-color: #fff;
+  border-radius: 5px;
+  position: relative;
+  border: none;
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.15), 0 0 0 rgba(0, 0, 0, 0.2);
+  padding: 12px;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 16px;
+  width: 100%;
+  color: rgba(0, 0, 0, 0.6);
+  margin-bottom: 12px;
+}
+
+.title img {
+  width: 24px;
+  height: 24px;
+}
+
+.feed-list {
+  margin-top: 16px;
+  list-style: none;
+  padding: 0;
+}
+
+.feed-list li {
+  display: flex;
+  align-items: center;
+  margin: 12px 0;
+}
+
+.feed-list li a {
+  text-decoration: none;
+}
+
+.avatar {
+  background-image: url("https://static-exp1.licdn.com/sc/h/1b4vl1r54ijmrmcyxzoidwmxs");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 48px;
+  height: 48px;
+  margin-right: 8px;
+  border-radius: 50%;
+}
+
+.feed-list li span {
+  font-size: 14px;
+}
+
+.feed-list li button {
+  background-color: transparent;
+  color: rgba(0, 0, 0, 0.6);
+  border: 1px solid rgba(0, 0, 0, 0.6);
+  padding: 8px 16px;
+  border-radius: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.feed-list li button:hover {
+  background-color: rgba(0, 0, 0, 0.6);
+  color: #fff;
+}
+
+.recommendation {
+  color: #0a66c2;
+  font-size: 14px;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 16px;
+}
+
+.recommendation img {
+  margin-left: 4px;
+  width: 16px;
+  height: 16px;
+}
+
+.banner-card {
+  margin-top: 16px;
+}
+
+.banner-card img {
+  width: 100%;
+  height: auto;
+}

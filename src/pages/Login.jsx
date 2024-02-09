@@ -1,6 +1,8 @@
 import React from "react";
+import '../../backend/server'
 
-export const LoginPage = () => {
+
+export const Login = () => {
   return (
     <div className="login-page">
       <div className="frame">
@@ -27,11 +29,14 @@ export const LoginPage = () => {
                 </div>
                 <div className="frame-10">
                   <div className="frame-11">
-                    <input
+                    <form action="">
+                      <input
                       type="text"
                       className="text-wrapper-5 input-field"
                       placeholder="Enter your email id"
                     />
+                    </form>
+                    
                   </div>
                 </div>
               </div>
@@ -41,11 +46,14 @@ export const LoginPage = () => {
                     <div className="text-wrapper-4">Password</div>
                   </div>
                   <div className="frame-15">
+                    <form action="">
                     <input
                       type="password"
                       className="text-wrapper-5 input-field"
                       placeholder="Enter your password"
                     />
+                    </form>
+                    
                     {/* <img className="basil-eye-closed" alt="Basil eye closed" src="basil-eye-closed-solid.svg" /> */}
                   </div>
                 </div>
@@ -85,3 +93,5 @@ export const LoginPage = () => {
     </div>
   );
 };
+
+export default Login;

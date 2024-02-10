@@ -2,7 +2,7 @@ import React from 'react'
 import Homepage from "./pages/homepage";
 import { LoginPage } from './pages/loginpage.jsx';
 import { SignupPage } from './pages/signuppage.jsx';
-import '../backend/server.js' 
+
 
 import  StudentPage  from './pages/studentProfile.jsx';
 // import Header from './pages/studentProfile/Header.jsx';

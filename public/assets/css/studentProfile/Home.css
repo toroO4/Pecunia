@@ -1,9 +1,9 @@
-.Container {
+.container {
   padding-top: 52px;
   max-width: 100%;
 }
 
-.Section {
+.section {
   min-height: 50px;
   padding: 16px 0;
   box-sizing: content-box;
@@ -13,29 +13,22 @@
   justify-content: center;
 }
 
-.Section h5 {
+.section h5 {
   color: #0a66c2;
   font-size: 14px;
 }
 
-.Section h5 a {
+.section h5 a {
   font-weight: 700;
 }
 
-.Section p {
+.section p {
   font-size: 14px;
   color: #434649;
   font-weight: 600;
 }
 
-@media (max-width: 768px) {
-  .Section {
-    flex-direction: column;
-    padding: 0 5px;
-  }
-}
-
-.Layout {
+.layout {
   display: grid;
   grid-template-areas: "leftside main rightside";
   grid-template-columns: minmax(0, 5fr) minmax(0, 12fr) minmax(300px, 7fr);
@@ -45,7 +38,12 @@
 }
 
 @media (max-width: 768px) {
-  .Layout {
+  .section {
+    flex-direction: column;
+    padding: 0 5px;
+  }
+
+  .layout {
     display: flex;
     flex-direction: column;
     padding: 0 5px;

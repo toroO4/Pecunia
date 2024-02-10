@@ -1,6 +1,6 @@
 import { render, screen } from '@testing-library/react';
 import App from './App';
-import '../backend/server';
+// import '../backend/server';
 
 test('renders learn react link', () => {
   render(<App />);
